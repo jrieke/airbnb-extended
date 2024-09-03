@@ -71,7 +71,7 @@ function main() {
 
         // Find the like button for this listing.
         let like_button = div.querySelector(
-          'button[aria-label="Add listing to a list"],button[aria-label="Remove listing from a list"]'
+          'button[data-testid="listing-card-save-button"],button[aria-label="Remove listing from a list"]'
         );
 
         // Create a hide button.
