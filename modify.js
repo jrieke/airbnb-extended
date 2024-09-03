@@ -2,17 +2,17 @@ function hide(group_div) {
   // Hide most of the listing, only keep its title.
   group_div.style.height = "45px";
   group_div.childNodes[1].style.display = "none";
-  group_div.childNodes[2].style.height = "45px";
+  // group_div.childNodes[2].style.height = "45px";
   // group_div.childNodes[2].childNodes[0].childNodes[0].childNodes[0].style.display =
   //   "none";
-  group_div.childNodes[2].childNodes[1].style.display = "none";
-  group_div.childNodes[2].childNodes[2].style.display = "none";
-  group_div.childNodes[2].childNodes[3].style.display = "none";
-  group_div.childNodes[2].childNodes[4].style.display = "none";
+  // group_div.childNodes[2].childNodes[1].style.display = "none";
+  // group_div.childNodes[2].childNodes[2].style.display = "none";
+  // group_div.childNodes[2].childNodes[3].style.display = "none";
+  // group_div.childNodes[2].childNodes[4].style.display = "none";
   // Some listings have an additional div (if they have the "Rare find" badge).
-  try {
-    group_div.childNodes[2].childNodes[5].style.display = "none";
-  } catch {}
+  // try {
+    // group_div.childNodes[2].childNodes[5].style.display = "none";
+  // } catch {}
 
   // Make the button read "Show".
   group_div.querySelector(".hide-button").innerHTML =
